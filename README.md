@@ -7,15 +7,13 @@ This project leverages deep learning to classify chest X-ray images and detect p
 ## 📁 Project Structure
 
 - `XRAY_CLASSIFICATION.ipynb` — Main Jupyter notebook containing data preprocessing, model training, evaluation, and visualization.
-- `data/` — Folder to store training and testing datasets (not included here).
-- `models/` — Optional folder to save trained models.
 - `README.md` — Project documentation.
 
 ---
 
 ## 🧠 Model Overview
 
-The model uses a deep CNN architecture (EfficientNet or a similar pretrained network) for image classification. The workflow includes:
+The model uses a deep CNN architecture (EfficientNet) for image classification. The workflow includes:
 
 1. **Dataset Loading & Preprocessing**  
    - Chest X-ray images are resized, normalized, and split into training, validation, and testing sets.
