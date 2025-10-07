@@ -50,12 +50,14 @@ For GPU acceleration (optional):
 
 pip install tensorflow-gpu
 ▶️ How to Run
-Clone the repository
+Clone the repository:
 
+```bash
 git clone https://github.com/your-username/xray-classification.git
 cd xray-classification
-Install dependencies
+Install dependencies:
 
+```bash
 pip install -r requirements.txt
 Place the dataset
 
