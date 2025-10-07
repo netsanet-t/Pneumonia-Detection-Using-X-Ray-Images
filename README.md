@@ -37,8 +37,6 @@ The model uses a deep CNN architecture (EfficientNet or a similar pretrained net
 - Clear visualization of correctly and incorrectly classified samples.
 - Confusion matrix and metrics provide insights into model reliability.
 
-(You can update this section with your exact metrics once finalized.)
-
 ---
 
 ## 🧪 Requirements
@@ -47,25 +45,28 @@ Install the following Python dependencies:
 
 ```bash
 pip install tensorflow keras numpy pandas matplotlib scikit-learn
-For GPU acceleration (optional):
-
+```
+For GPU acceleration:
+```bash
 pip install tensorflow-gpu
+```
 ▶️ How to Run
 ### Clone the repository
-
+```bash
 git clone https://github.com/your-username/xray-classification.git
 cd xray-classification
+```
 ### Install dependencies
-
+```bash
 pip install -r requirements.txt
-Place the dataset
+```
+### Place the dataset
 
-### Download and extract the chest X-ray dataset into a data/ folder.
+Download and extract the chest X-ray dataset into a data/ folder.
 
 ### Run the notebook
 
 jupyter notebook XRAY_CLASSIFICATION.ipynb
-(Optional) Export model
 
 Save the trained model for later deployment or inference.
 
