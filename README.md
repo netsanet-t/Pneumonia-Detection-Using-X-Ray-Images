@@ -49,47 +49,37 @@ Install the following Python dependencies:
 pip install tensorflow keras numpy pandas matplotlib scikit-learn
 For GPU acceleration (optional):
 
-bash
-Copy code
 pip install tensorflow-gpu
 ▶️ How to Run
-Clone the repository
+### Clone the repository
 
-bash
-Copy code
 git clone https://github.com/your-username/xray-classification.git
 cd xray-classification
-Install dependencies
+### Install dependencies
 
-bash
-Copy code
 pip install -r requirements.txt
 Place the dataset
 
-Download and extract the chest X-ray dataset into a data/ folder.
+### Download and extract the chest X-ray dataset into a data/ folder.
 
-Run the notebook
+### Run the notebook
 
-bash
-Copy code
 jupyter notebook XRAY_CLASSIFICATION.ipynb
 (Optional) Export model
 
 Save the trained model for later deployment or inference.
 
-🌐 Deployment
+## 🌐 Deployment
 This model can be deployed with a simple Streamlit interface to allow users to upload X-ray images and receive instant predictions:
 
-bash
-Copy code
 streamlit run app.py
-📄 License
+## 📄 License
 This project is open-source and available under the MIT License.
 
-✍️ Author
+## ✍️ Author
 Developed by Netsanet Teklegiorgis Brhane — as part of a deep learning project focused on medical imaging.
 
-💡 Acknowledgements
+## 💡 Acknowledgements
 
 Dataset: NIH Chest X-ray Dataset
 
