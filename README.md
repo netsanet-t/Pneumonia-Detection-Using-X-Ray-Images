@@ -45,19 +45,24 @@ The model uses a deep CNN architecture (EfficientNet or a similar pretrained net
 
 Install the following Python dependencies:
 
+```bash
 pip install tensorflow keras numpy pandas matplotlib scikit-learn
 For GPU acceleration (optional):
 
+bash
+Copy code
 pip install tensorflow-gpu
 ▶️ How to Run
-Clone the repository:
+Clone the repository
 
-```bash
+bash
+Copy code
 git clone https://github.com/your-username/xray-classification.git
 cd xray-classification
-Install dependencies:
+Install dependencies
 
-```bash
+bash
+Copy code
 pip install -r requirements.txt
 Place the dataset
 
@@ -65,7 +70,10 @@ Download and extract the chest X-ray dataset into a data/ folder.
 
 Run the notebook
 
+bash
+Copy code
 jupyter notebook XRAY_CLASSIFICATION.ipynb
+(Optional) Export model
 
 Save the trained model for later deployment or inference.
 
@@ -82,6 +90,7 @@ This project is open-source and available under the MIT License.
 Developed by Netsanet Teklegiorgis Brhane — as part of a deep learning project focused on medical imaging.
 
 💡 Acknowledgements
+
 Dataset: NIH Chest X-ray Dataset
 
 TensorFlow & Keras for model building
